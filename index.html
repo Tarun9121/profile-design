@@ -24,6 +24,16 @@
 
 <body class="px-3">
 
+
+    <div class="only-for-mobile">
+        <div class="container-fluid d-flex p-0 justify-content-around gap-3 overflow-scroll mobile-nav-bar links">
+            <a class="flex-shrink-0 active" href="">Profile</a>
+            <a class="flex-shrink-0" href="">Recognize</a>
+            <a class="flex-shrink-0" href="">Certificate & Badges</a>
+            <a class="flex-shrink-0" href="">Account settings</a>
+        </div>
+    </div>
+
     <div class="flex gap-2 my-3 none-for-mobile" id="greeting-container">
         <div>
             <img src="./assets/images/Ellipse 54.png" alt="admin pic">
@@ -75,6 +85,7 @@
             </div>
 
             <h3 class="heading only-for-mobile">Summary</h3>
+
             <div class="grid g-4x4 gap-10">
                 <div class="content">
                     <p>Designation</p>
@@ -127,7 +138,6 @@
         </div>
 
         <div class="d-flex align-items-center gap-3">
-            <p class="m-0">settings</p>
             <i class="fa-solid fa-gear p-3"></i>
         </div>
 
@@ -136,16 +146,22 @@
     <div class="d-flex gap-2 mt-3">
         <!-- aside nav bar -->
         <div id="aside-nav-bar" class="d-flex flex-column flex-shrink-0">
-            <button
-                class="d-flex flex-shrink-0 btn btn-skyblue justify-content-between text-white gap-3 align-items-center  active">Personal
-                <img src="./assets/images/personal.png" alt="personal-icon"> </button>
-            <button class="d-flex flex-shrink-0 btn justify-content-between gap-3 align-items-center">Employement <img
-                    src="./assets/images/employement.png" alt="emp-icon"></button>
-            <button class="d-flex flex-shrink-0 btn justify-content-between gap-3 align-items-center">Work Experience
-                <img src="./assets/images/work experiance.png" alt="work-exp-icon"> </button>
-            <button class="d-flex flex-shrink-0 btn justify-content-between gap-3 align-items-center">Documents <img
-                    src="./assets/images/documents.png" style="background-color: #38A2DE; border-radius: 50%;"
-                    alt="doc-icon"> </button>
+            <button class="d-flex flex-shrink-0 btn btn-skyblue justify-content-between text-white gap-3 align-items-center active">
+                Personal
+                <img src="./assets/images/personal.png" alt="personal-icon">
+            </button>
+            <button class="d-flex flex-shrink-0 btn justify-content-between gap-3 align-items-center">
+                Employement
+                <img src="./assets/images/employement.png" alt="emp-icon">
+            </button>
+            <button class="d-flex flex-shrink-0 btn justify-content-between gap-3 align-items-center">
+                Work Experience
+                <img src="./assets/images/work experiance.png" alt="work-exp-icon">
+            </button>
+            <button class="d-flex flex-shrink-0 btn justify-content-between gap-3 align-items-center">
+                Documents 
+                <img src="./assets/images/documents.png" style="background-color: #38A2DE; border-radius: 50%;" alt="doc-icon">
+            </button>
         </div>
         <div>
             <!-- interests -->
@@ -176,11 +192,11 @@
                 <div class="grid g-2x3">
                     <div class="content">
                         <p>Work Email</p>
-                        <p>tarunswaroop199@gmail.com</p>
+                        <p>tarunswaroop199@<wbr>gmail.com</p>
                     </div>
                     <div class="content my-order-3">
                         <p>Personal Email</p>
-                        <p>tarunswaroop177@gmail.com</p>
+                        <p>tarunswaroop177@<wbr>gmail.com</p>
                     </div>
                     <div class="content">
                         <p>Primary Phone No</p>
