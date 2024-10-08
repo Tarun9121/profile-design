@@ -6,7 +6,7 @@
 }
 
 body {
-    padding: 5px;
+    padding: 5px 8px;
     background-color: #F3F3F3;
 }
 
@@ -235,6 +235,12 @@ h2.heading, h3.heading {
     }
     .only-for-mobile {
         display: block;
+    }
+    .heading > a {
+        display: none;
+    }
+    .content > p:first-child {
+        margin-bottom: 0;
     }
     .mobile-container {
         box-shadow: 2px 2px 5px #888888;
