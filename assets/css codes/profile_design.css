@@ -4,9 +4,11 @@
     font-style: normal;
     font-size: 14px;
 }
-
+p.bg-image {
+    font-weight: 600;
+}
 body {
-    padding: 5px 8px;
+    padding: 5px 15px;
     background-color: #F3F3F3;
 }
 
@@ -15,9 +17,9 @@ body {
 }
 
 div.container-fluid {
-    box-shadow: 2px 2px 5px #888888;
+    /* box-shadow: 2px 2px 5px #888888; */
     border-radius: 5px;
-    margin: 5px 0px;
+    margin: 20px 0px;
     padding: 10px;
     border: 1px solid #00000033;
 }
@@ -70,7 +72,7 @@ button {
     background-size: cover;
     color: #fff;
     padding: 14px 25px;
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
 .text-grey {
@@ -122,13 +124,27 @@ a.active, .links .active {
     margin-top: 0;
 }
 
+.icon > i {
+    font-size: 18px;
+}
+
 #aside-nav-bar button:hover {
-    box-shadow: 1px 1px 3px #212121;
+    box-shadow: 1px 1px 3px #888888;
+}
+
+#aside-nav-bar {
+    margin-top: 15px;
 }
 
 #aside-nav-bar button {
-    box-shadow: 2px 2px 2px #888888;
+    /* box-shadow: 2px 2px 2px #888888; */
+    border: 1px solid #00000033;
     margin: 5px 0px;
+    margin-right:10px;
+}
+
+.greeting-msg {
+    font-weight: 600;
 }
 
 h2.heading, h3.heading {
